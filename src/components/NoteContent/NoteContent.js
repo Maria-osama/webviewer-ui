@@ -300,7 +300,7 @@ const NoteContent = ({ annotation, isEditing, setIsEditing, noteIndex, onTextCha
   return (
     <div className={noteContentClass} onClick={handleNoteContentClicked}>
       {header}
-      {textPreview}
+      {/* {textPreview} */}
       {content}
     </div>
   )
